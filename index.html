@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>champagnevoirindesmoulins | index</title>
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+</head>
+<body>
+
+	<!-- <div class="container"></div> -->
+
+
+		<header class="headerTop">
+			<!-- <a href="#"><img src="images/logo.png" alt="logo"></a>  -->
+		</header>
+
+		<!-- NAVBAR -->
+
+		<nav class="navbar navbar-default">
+		  <div class="container">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav">
+		        <li><a href="#" class="navSeparation">Accueil</a></li>
+
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle navSeparation" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">présentation <span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#"> Qui sommes-nous ?</a></li>
+		            <li><a href="#"> Historique</a></li>
+		          </ul>
+		        </li>
+
+		        <li><a href="#"  class="navSeparation">nos cuvées</a></li>
+		        <li><a href="#"  class="navSeparation">Le travail<span class="hidden-sm hidden-md"> de la vigne</span></a></li>
+		        <li><a href="#"  class="navSeparation">Références</a></li>
+		        <li><a href="#"  class="navSeparation">Actu</a></li>
+		        <li><a href="#">plan <span class="hidden-sm hidden-md"> & contact </span></a></li>
+		        
+		        
+
+		      </ul>
+
+		     
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+
+		<!-- END NAVBAR -->
+
+		
+		<div class="content"  id='layout'>
+			<div class="container">
+				<!-- first row -->
+				<div class="row firstRow">
+					<div class="col-sm-4 box box1">
+						<!--<ul class="bxslider">
+						  <li><img src="images/pic1.jpg" id="myIMG" /></li>
+						   <li><img src="images/pic2.jpg" /></li>
+						  <li><img src="images/pic3.jpg" /></li> 
+						</ul>-->
+					</div>
+					<div class="col-sm-4 box box2">
+						<div class="row">
+							<div class="col-sm-12 box2-top">
+								Propriétaire-récoltant <br> depuis 70 ans, notre <br> champagne est le <br> reflet de l’amour de <br>notre  métier
+							</div>
+							<div class="col-sm-12 box2-bottom"></div>
+						</div>
+					</div>
+					<div class="col-sm-4 box box3">
+						<div class="row">
+							<div class="col-sm-12 box3-top"></div>
+							<div class="col-sm-12 box3-bottom">
+								Issu de la côte des <br> blancs, le chardonnay <br> est le seul cépage <br> blanc de la champagne.
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--end first row -->
+
+				<!-- diapo -->
+				<div class="diapo">
+					<p>
+						<span>Un terre d’exception</span> <br>
+						transmise de génération en génération
+					</p>
+				</div>
+
+			</div>
+			<div id='layout_footer'></div>
+		</div> <!-- end content -->
+		
+
+		<footer class="text-center" id='footer'>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4 footer-sub-box footer-sub-box1 separationFooterRight">
+						<img src="images/ico-tel.png" alt="tel">03 26 54 50 30
+					</div>
+					<div class="col-sm-4 footer-sub-box">
+					<ul class="list-inline">
+						<li><img src="images/ico-pos.png" class="img-pos" alt="tel" 
+						style="margin-right: 3px;"></li>
+						<li>24, rue des Partelaines <br>51530 - CHOUILLY</li>
+					</ul>
+						
+					</div>
+					<div class="col-sm-4 footer-sub-box footer-sub-box3 separationFooterLeft">
+						<img src="images/img-footer.png" class="img-footer" alt="img">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<img src="images/footer-img.png" class="footer-logo pull-left" alt="footer">
+					</div>
+					<div class="col-md-8 text-footer">
+						Harum trium sententiarum nulli prorsus assentior. Nec enim illa prima vera est, ut, quem ad modum in se quisque sit, sic in amicum sit animatus. Quam multa enim, quae nostra causa numquam faceremus, facimus causa amicorum! Liens - Liens - Liens - Liens - Liens - Liens - Liens - Liens - Liens - Liens - Liens - Liens
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+
+	<script src="js/jquery-1.12.4.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/background.cycle.min.js"></script>
+	<script src="js/jquery.bxslider.min.js"></script>
+	<!-- <script src="js/main.js"></script> -->
+
+
+	<script type="text/javascript">
+		
+		$(function(){
+			/**/
+			$(".diapo").backgroundCycle({
+			            imageUrls: [
+			                'images/diapo-bg1.jpg',
+			                'images/diapo-bg2.jpg'
+			            ],
+			            fadeSpeed: 600,
+			            duration: 5000,
+			            backgroundSize: SCALING_MODE_COVER
+	        });
+	        
+
+	        //bxslider
+	        /*
+			  $('.bxslider').bxSlider({
+			  	controls:false,
+			  	pager : false,
+			  	infiniteLoop: true,
+			  	auto : true,
+			  	onSlideBefore : function($slideElement, oldIndex, newIndex){
+			  		$slideElement.animate({"right" : "+=100"},2000) ;
+			  	}
+			  });*/
+			  
+
+			  
+
+		});
+	</script>
+
+
+</body>
+</html>

@@ -1,0 +1,718 @@
+/**/
+@font-face {
+  font-family: 'plantc';
+  src: url("fonts/plantc/plantc.eot");
+  src: url("fonts/plantc/plantc.eot?#iefix") format("embedded-opentype"), url("fonts/plantc/plantc.woff2") format("woff2"), url("fonts/plantc/plantc.woff") format("woff"), url("fonts/plantc/plantc.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 10, ../../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/layout/_sticky-footer.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 12, ../../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/layout/_sticky-footer.scss */
+#layout {
+  clear: both;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom: -299px;
+}
+/* line 18, ../../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/layout/_sticky-footer.scss */
+#layout #layout_footer {
+  height: 299px;
+}
+
+/* line 20, ../../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/layout/_sticky-footer.scss */
+#footer {
+  clear: both;
+  position: relative;
+  height: 299px;
+}
+
+/* line 22, ../../src/stylesheets/style.scss */
+html, body {
+  position: relative;
+  min-height: 100%;
+  width: 100%;
+  color: black;
+}
+
+/*navbar*/
+/* line 38, ../../src/stylesheets/style.scss */
+.navbar {
+  margin-bottom: 0px;
+}
+
+/* line 42, ../../src/stylesheets/style.scss */
+.navbar-default {
+  background-color: #e4ddb5;
+  border-color: #e4ddb5;
+}
+
+/* line 47, ../../src/stylesheets/style.scss */
+.navbar-default .navbar-nav > li > a {
+  font-family: "plantc";
+  font-size: 11px;
+  color: #000;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/*dropdow for navbar*/
+/* line 59, ../../src/stylesheets/style.scss */
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  font-family: "plantc";
+  color: #000;
+  font-size: 11px;
+  text-align: center;
+}
+
+/* line 65, ../../src/stylesheets/style.scss */
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #000;
+  background-color: transparent;
+}
+
+/* line 71, ../../src/stylesheets/style.scss */
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+/* line 78, ../../src/stylesheets/style.scss */
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+/*bxslider*/
+/* line 83, ../../src/stylesheets/style.scss */
+.bx-wrapper {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 5px solid #fff;
+  margin-bottom: 0px;
+  max-width: 480px !important;
+  margin: 0 auto;
+  border: 0px solid transparent !important;
+}
+
+@keyframes animatedBackground {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: -400px 0;
+  }
+  100% {
+    background-position: -0px 0;
+  }
+}
+@-moz-keyframes animatedBackground {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: -400px 0;
+  }
+  100% {
+    background-position: -0px 0;
+  }
+}
+@-webkit-keyframes animatedBackground {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: -400px 0;
+  }
+  100% {
+    background-position: -0px 0;
+  }
+}
+@-ms-keyframes animatedBackground {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: -400px 0;
+  }
+  100% {
+    background-position: -0px 0;
+  }
+}
+@-o-keyframes animatedBackground {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: -400px 0;
+  }
+  100% {
+    background-position: -0px 0;
+  }
+}
+/*header*/
+/* line 125, ../../src/stylesheets/style.scss */
+header.headerTop {
+  height: 250px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background: url('../images/bg-header.jpg') center top no-repeat #0f0f0f;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+/* line 135, ../../src/stylesheets/style.scss */
+div.content div.firstRow {
+  margin-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* line 141, ../../src/stylesheets/style.scss */
+div.content div.box1 {
+  padding: 0;
+  background: url('../images/pic1-long.jpg') center top no-repeat #0f0f0f;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: 0px 0px;
+  animation: animatedBackground 10s linear infinite;
+  -moz-animation: animatedBackground 10s linear infinite;
+  -webkit-animation: animatedBackground 10s linear infinite;
+  -ms-animation: animatedBackground 10s linear infinite;
+  -o-animation: animatedBackground 10s linear infinite;
+}
+/* line 154, ../../src/stylesheets/style.scss */
+div.content div.box {
+  min-height: 283px;
+}
+/* line 156, ../../src/stylesheets/style.scss */
+div.content div.box div.box2-top {
+  font-family: "plantc";
+  font-size: 16px;
+  padding-top: 13px;
+  text-align: center;
+  min-height: 140px;
+  background: #cdbb8f;
+  color: white;
+  height: 50%;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+/* line 170, ../../src/stylesheets/style.scss */
+div.content div.box div.box2-bottom {
+  min-height: 140px;
+  background: url('../images/box2-bottom.jpg') center center no-repeat #322514;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+/* line 175, ../../src/stylesheets/style.scss */
+div.content div.box div.box3-top {
+  min-height: 140px;
+  background: url('../images/box3-top.jpg') center center no-repeat;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+/* line 180, ../../src/stylesheets/style.scss */
+div.content div.box div.box3-bottom {
+  font-family: "plantc";
+  font-size: 16px;
+  padding-top: 13px;
+  text-align: center;
+  min-height: 140px;
+  background: #cdbb8f;
+  color: white;
+  height: 50%;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+/* line 194, ../../src/stylesheets/style.scss */
+div.content div.diapo {
+  height: 280px;
+}
+/* line 197, ../../src/stylesheets/style.scss */
+div.content div.diapo p {
+  text-align: center;
+  font-family: "plantc";
+  font-size: 15px;
+  color: white;
+  padding-top: 130px;
+  text-transform: uppercase;
+}
+/* line 204, ../../src/stylesheets/style.scss */
+div.content div.diapo p span {
+  font-size: 19px;
+}
+
+/* line 217, ../../src/stylesheets/style.scss */
+footer {
+  font-family: verdana;
+  font-size: 10px;
+  color: #fff;
+  height: auto !important;
+  background: #212121;
+}
+/* line 226, ../../src/stylesheets/style.scss */
+footer .footer-logo {
+  padding: 10px 0;
+}
+/* line 230, ../../src/stylesheets/style.scss */
+footer .pull-left {
+  float: none !important;
+}
+/* line 233, ../../src/stylesheets/style.scss */
+footer .footer-sub-box {
+  padding: 50px 0;
+  text-align: center;
+  font-family: "plantc";
+  font-size: 16px;
+  text-transform: uppercase;
+  color: white;
+  line-height: 30px;
+}
+/* line 241, ../../src/stylesheets/style.scss */
+footer .footer-sub-box img {
+  margin-right: 15px;
+}
+/* line 244, ../../src/stylesheets/style.scss */
+footer .footer-sub-box img.img-pos {
+  vertical-align: super;
+}
+/* line 247, ../../src/stylesheets/style.scss */
+footer .footer-sub-box img.img-footer {
+  width: 141px;
+  height: 67px;
+}
+
+/*
+*large mobile
+*/
+@media (min-width: 425px) {
+  @keyframes animatedBackground {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: -150px 0;
+    }
+    100% {
+      background-position: -0px 0;
+    }
+  }
+  @-moz-keyframes animatedBackground {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: -150px 0;
+    }
+    100% {
+      background-position: -0px 0;
+    }
+  }
+  @-webkit-keyframes animatedBackground {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: -150px 0;
+    }
+    100% {
+      background-position: -0px 0;
+    }
+  }
+  @-ms-keyframes animatedBackground {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: -150px 0;
+    }
+    100% {
+      background-position: -0px 0;
+    }
+  }
+  @-o-keyframes animatedBackground {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: -150px 0;
+    }
+    100% {
+      background-position: -0px 0;
+    }
+  }
+  /* line 288, ../../src/stylesheets/style.scss */
+  .navbar-default .navbar-nav > li > a {
+    font-size: 14px;
+  }
+
+  /*dropdow for navbar*/
+  /* line 293, ../../src/stylesheets/style.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    font-size: 14px;
+  }
+
+  /*header*/
+  /* line 297, ../../src/stylesheets/style.scss */
+  header.headerTop {
+    height: 350px;
+  }
+
+  /* line 303, ../../src/stylesheets/style.scss */
+  footer .footer-sub-box {
+    font-size: 17.3px;
+  }
+  /* line 306, ../../src/stylesheets/style.scss */
+  footer .footer-sub-box img.img-footer {
+    width: 281px;
+    height: 133px;
+  }
+}
+/*
+*end large mobile
+*/
+/*
+** tablet
+*/
+@media (min-width: 768px) {
+  @keyframes animatedBackground {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: -400px 0;
+    }
+    100% {
+      background-position: -0px 0;
+    }
+  }
+  @-moz-keyframes animatedBackground {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: -400px 0;
+    }
+    100% {
+      background-position: -0px 0;
+    }
+  }
+  @-webkit-keyframes animatedBackground {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: -400px 0;
+    }
+    100% {
+      background-position: -0px 0;
+    }
+  }
+  @-ms-keyframes animatedBackground {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: -400px 0;
+    }
+    100% {
+      background-position: -0px 0;
+    }
+  }
+  @-o-keyframes animatedBackground {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: -400px 0;
+    }
+    100% {
+      background-position: -0px 0;
+    }
+  }
+  /* line 357, ../../src/stylesheets/style.scss */
+  .navbar-default .navbar-nav > li > a {
+    padding: 10px 7px;
+    font-size: 13px;
+  }
+
+  /* line 363, ../../src/stylesheets/style.scss */
+  .navbar-default .navbar-nav > li > a.navSeparation {
+    background: url('../images/navSeparation-small.png') right center no-repeat;
+  }
+
+  /*header*/
+  /* line 368, ../../src/stylesheets/style.scss */
+  header.headerTop {
+    height: 400px;
+  }
+
+  /* line 374, ../../src/stylesheets/style.scss */
+  div.content div.box {
+    min-height: 266px;
+  }
+  /* line 376, ../../src/stylesheets/style.scss */
+  div.content div.box div.box2-top {
+    font-size: 12px;
+    min-height: 132.8px;
+  }
+  /* line 380, ../../src/stylesheets/style.scss */
+  div.content div.box div.box2-bottom {
+    min-height: 132.8px;
+  }
+  /* line 383, ../../src/stylesheets/style.scss */
+  div.content div.box div.box3-top {
+    min-height: 132.8px;
+  }
+  /* line 386, ../../src/stylesheets/style.scss */
+  div.content div.box div.box3-bottom {
+    font-size: 12px;
+    min-height: 132.8px;
+  }
+  /* line 392, ../../src/stylesheets/style.scss */
+  div.content div.diapo {
+    height: 340px;
+  }
+  /* line 395, ../../src/stylesheets/style.scss */
+  div.content div.diapo p {
+    font-size: 18px;
+    padding-top: 150px;
+  }
+  /* line 398, ../../src/stylesheets/style.scss */
+  div.content div.diapo p span {
+    font-size: 25px;
+  }
+
+  /* line 409, ../../src/stylesheets/style.scss */
+  footer {
+    height: 100% !important;
+    max-height: 299px;
+  }
+  /* line 412, ../../src/stylesheets/style.scss */
+  footer .footer-sub-box1 {
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+  /* line 416, ../../src/stylesheets/style.scss */
+  footer .separationFooterRight {
+    background: url('../images/separationFooter-small.png') right center no-repeat;
+  }
+  /* line 419, ../../src/stylesheets/style.scss */
+  footer .separationFooterLeft {
+    background: url('../images/separationFooter-small.png') left center no-repeat;
+  }
+  /* line 422, ../../src/stylesheets/style.scss */
+  footer .footer-sub-box {
+    font-size: 14.3px;
+  }
+  /* line 424, ../../src/stylesheets/style.scss */
+  footer .footer-sub-box img.img-footer {
+    width: 141px;
+    height: 67px;
+  }
+  /* line 429, ../../src/stylesheets/style.scss */
+  footer .text-footer {
+    padding-top: 20px;
+  }
+}
+/*
+** end tablet
+*/
+/*
+** tablet-large
+*/
+@media (min-width: 992px) {
+  /* line 447, ../../src/stylesheets/style.scss */
+  .navbar-default .navbar-nav > li > a {
+    padding: 15px 15px;
+    font-size: 16.74px;
+  }
+
+  /* line 452, ../../src/stylesheets/style.scss */
+  .navbar-default .navbar-nav > li > a.navSeparation {
+    background: url('../images/navSeparation.png') right center no-repeat;
+  }
+
+  /*header*/
+  /* line 457, ../../src/stylesheets/style.scss */
+  header.headerTop {
+    height: 450px;
+  }
+
+  /* line 464, ../../src/stylesheets/style.scss */
+  div.content div.box {
+    min-height: 343px;
+  }
+  /* line 466, ../../src/stylesheets/style.scss */
+  div.content div.box div.box2-top {
+    min-height: 171.5px;
+    padding-top: 30px;
+    font-size: 16px;
+  }
+  /* line 471, ../../src/stylesheets/style.scss */
+  div.content div.box div.box2-bottom {
+    min-height: 171.5px;
+  }
+  /* line 474, ../../src/stylesheets/style.scss */
+  div.content div.box div.box3-top {
+    min-height: 171.5px;
+  }
+  /* line 477, ../../src/stylesheets/style.scss */
+  div.content div.box div.box3-bottom {
+    min-height: 171.5px;
+    padding-top: 30px;
+    font-size: 16px;
+  }
+  /* line 484, ../../src/stylesheets/style.scss */
+  div.content div.diapo {
+    height: 400px;
+    margin-top: 10px;
+  }
+  /* line 488, ../../src/stylesheets/style.scss */
+  div.content div.diapo p {
+    font-size: 20px;
+    padding-top: 180px;
+  }
+  /* line 491, ../../src/stylesheets/style.scss */
+  div.content div.diapo p span {
+    font-size: 30px;
+  }
+
+  /* line 501, ../../src/stylesheets/style.scss */
+  footer .footer-logo {
+    padding: 10px 0;
+  }
+  /* line 505, ../../src/stylesheets/style.scss */
+  footer .pull-left {
+    float: none !important;
+  }
+  /* line 508, ../../src/stylesheets/style.scss */
+  footer .footer-sub-box {
+    padding: 100px 0;
+    padding-bottom: 50px;
+    font-size: 17.3px;
+  }
+  /* line 512, ../../src/stylesheets/style.scss */
+  footer .footer-sub-box img {
+    margin-right: 20px;
+  }
+  /* line 515, ../../src/stylesheets/style.scss */
+  footer .footer-sub-box img.img-footer {
+    width: 281px;
+    height: 133px;
+  }
+  /* line 521, ../../src/stylesheets/style.scss */
+  footer .footer-sub-box1 {
+    padding-top: 118px;
+    padding-bottom: 100px;
+  }
+  /* line 525, ../../src/stylesheets/style.scss */
+  footer .footer-sub-box3 {
+    padding-top: 68px;
+    padding-left: 44px;
+  }
+  /* line 529, ../../src/stylesheets/style.scss */
+  footer .text-footer {
+    padding-top: 0px;
+  }
+  /* line 532, ../../src/stylesheets/style.scss */
+  footer .separationFooterRight {
+    background: url('../images/separationFooter.png') right center no-repeat;
+  }
+  /* line 535, ../../src/stylesheets/style.scss */
+  footer .separationFooterLeft {
+    background: url('../images/separationFooter.png') left center no-repeat;
+  }
+}
+/*
+** end tablet-large
+*/
+/*
+** laptop-large
+*/
+@media (min-width: 1200px) {
+  /* line 556, ../../src/stylesheets/style.scss */
+  .navbar-default .navbar-nav > li > a {
+    padding: 15px 15px;
+    font-size: 16.74px;
+  }
+
+  /*header*/
+  /* line 562, ../../src/stylesheets/style.scss */
+  header.headerTop {
+    height: 500px;
+  }
+
+  /* line 568, ../../src/stylesheets/style.scss */
+  div.content div.box {
+    min-height: 414px;
+  }
+  /* line 570, ../../src/stylesheets/style.scss */
+  div.content div.box div.box2-top {
+    min-height: 207px;
+    padding-top: 42px;
+    font-size: 18px;
+  }
+  /* line 575, ../../src/stylesheets/style.scss */
+  div.content div.box div.box2-bottom {
+    min-height: 207px;
+  }
+  /* line 578, ../../src/stylesheets/style.scss */
+  div.content div.box div.box3-top {
+    min-height: 207px;
+  }
+  /* line 581, ../../src/stylesheets/style.scss */
+  div.content div.box div.box3-bottom {
+    min-height: 207px;
+    padding-top: 42px;
+    font-size: 18px;
+  }
+  /* line 588, ../../src/stylesheets/style.scss */
+  div.content div.diapo {
+    height: 482px;
+    margin-top: 10px;
+  }
+  /* line 592, ../../src/stylesheets/style.scss */
+  div.content div.diapo p {
+    font-size: 22.22px;
+    padding-top: 200px;
+    letter-spacing: 4px;
+    word-spacing: 1px;
+  }
+  /* line 597, ../../src/stylesheets/style.scss */
+  div.content div.diapo p span {
+    font-size: 34.69px;
+    letter-spacing: 6px;
+    word-spacing: 3px;
+  }
+}
+/*
+** end laptop-large
+*/
+/*
+** very large devices
+*/
+@media (min-width: 1441px) {
+  /*header*/
+  /* line 622, ../../src/stylesheets/style.scss */
+  header.headerTop {
+    height: 600px;
+  }
+}
+/*
+** very large devices
+*/
