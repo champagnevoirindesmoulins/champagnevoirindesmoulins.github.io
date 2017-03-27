@@ -184,11 +184,11 @@ div.content div.box1 {
   -webkit-background-size: cover;
   background-size: cover;
   background-position: 0px 0px;
-  animation: animatedBackground 10s linear infinite;
-  -moz-animation: animatedBackground 10s linear infinite;
-  -webkit-animation: animatedBackground 10s linear infinite;
-  -ms-animation: animatedBackground 10s linear infinite;
-  -o-animation: animatedBackground 10s linear infinite;
+  animation: animatedBackground 17s ease-in-out infinite;
+  -moz-animation: animatedBackground 17s ease-in-out infinite;
+  -webkit-animation: animatedBackground 17s ease-in-out infinite;
+  -ms-animation: animatedBackground 17s ease-in-out infinite;
+  -o-animation: animatedBackground 17s ease-in-out infinite;
 }
 /* line 154, ../../src/stylesheets/style.scss */
 div.content div.box {
